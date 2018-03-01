@@ -6,10 +6,7 @@
   <code>Last name</code> has a predefined list of options.<br>
   <code>Age</code> uses a custom filter-function combined with a predefined list of options.
 </p>
-{{models-table
-  data=data
-  columns=columns
-}}
+{{models-table-concurrency columns=columns }}
 
 <div class="row">
   <div class="col-md-6">
@@ -18,8 +15,7 @@
   </div>
   <div class="col-md-6">
     <p>Component usage</p>
-    <pre><code class="language-handlebars">\{{models-table
-  data=data
+    <pre><code class="language-handlebars">\{{models-table-concurrency
   columns=columns
 }}</code></pre>
   </div>
